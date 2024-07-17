@@ -14,6 +14,13 @@ body{
     width: 90%;
     margin: 5rem auto;
 } 
+
+h2{
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
 h3{
     font-size: 36px;
     font-weight: 800;
@@ -31,7 +38,8 @@ p, li{
 }
 
 
-/* Navbar styles */
+                                                            /* Navbar styles */
+
 
 .nav-bar{
     display: flex;
@@ -58,7 +66,7 @@ p, li{
 }
 
 
-/* banner style */
+                                                        /* banner style */
 
 
 .explore-your-travel{
@@ -69,9 +77,6 @@ p, li{
     background-size: cover;
     padding: 6.6rem 0;
 }
-
-
-
 
 .explore-container{
     display: flex;
@@ -141,3 +146,36 @@ input, select, input::placeholder{
     color: rgb(255, 84, 0) ;
     border: 1px solid rgb(255, 84, 0);
 }
+
+                                                /* Popular tours section */
+
+
+.popular-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+}
+
+.first-pera, ul>li, .last-pera{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.first-pera{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+ul li{
+    margin-bottom: 16px;
+    line-height: 26px;
+}
+.last-pera{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.image-content{
+    max-width: 540px;
+    height: auto;
+}
+
