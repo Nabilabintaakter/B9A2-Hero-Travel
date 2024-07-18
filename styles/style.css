@@ -423,7 +423,7 @@ hr{
 }
 
 
-/* responsive for mobile */
+                                        /* responsive for mobile */
 
 @media screen and (max-width:576px) {
     
@@ -438,13 +438,15 @@ hr{
 
 
 /* navbar */
+
     .nav-options p{
         display: none;
     }
     .ham-burger{
         display: block;
     }
-    .ham-burger i, h3{
+    .ham-burger i, 
+    h3{
         font-size: 21.54px;
     }
     .nav-bar .logo img{
@@ -571,6 +573,45 @@ hr{
         margin-bottom: 16px;
         font-size: 0.875rem;
     }
+
+
+/* footer */
+    .content {
+        padding: 30px 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content p{
+        font-size: 0.875rem;
+        line-height: 24px;
+        margin-bottom: 24px;
+     }
+     .content .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        gap: 0.5rem;
+    }
+    .content .logo h3{
+        font-size: 21.54px;
+        text-align: center;    
+     }  
+    .content .logo img{
+        width: 29px;
+        height: 33.52px;
+    }
+    .social {
+        width: 174px;
+    }
+    hr {
+        width: 100%;
+        margin-top: 23.5px;
+        margin-bottom: 24.5px;
+    }
+
 
 }
 
