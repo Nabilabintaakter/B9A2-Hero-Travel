@@ -18,7 +18,7 @@ body{
 h2{
     color: rgb(19, 19, 24);
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
 }
 h3{
@@ -313,3 +313,57 @@ ul {
     margin-top: 24px;
     height: auto;
 }
+
+
+                                          /* perfect place section */
+
+.perfect-place{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+.place-text{
+    width: 50%;
+}
+.place-text h2{
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+.place-text p{
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.place-text ul{
+    padding-left: 25px;
+    margin-bottom: 32px;
+}
+.place-text ul li{
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.place-image{
+    max-width: 610px;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+.place-image h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.place-image img{
+    width: 100%;
+    filter: brightness(90%);
+}
+
+
