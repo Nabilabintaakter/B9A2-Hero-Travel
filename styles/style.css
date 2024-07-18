@@ -471,7 +471,6 @@ hr{
     .travel-inputs {
         flex-direction: column;
     }
-    
     .travel-inputs select,
     .travel-inputs button{
         width: 100%;
@@ -517,6 +516,60 @@ hr{
     .destination-text-content h2,
     .paragraph {
         margin-bottom: 16px;
+    }
+
+/* why choose us */
+
+    .choose-text-content{
+        margin-bottom: 16px;
+        max-width: 643px;
+        width: 100%;
+    }
+    .card-container-1 {
+        margin-top: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .card-container-2 {
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .paragraph {
+        font-size: 0.875rem;
+        width: 100%;
+    }
+
+
+/* perfect place */
+
+    .perfect-place {
+        gap: 24px;
+        flex-direction: column;
+        margin-top: 470px;
+    }
+    .place-text {
+        width: 100%;
+    }
+
+    .place-image{
+        width: 100%;
+    }
+    .place-text h2 {
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .place-text p {
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .place-text ul {
+        margin-bottom: 16px;
+    }
+    .place-text ul li {
+        font-weight: 700;
+        margin-bottom: 16px;
+        font-size: 0.875rem;
     }
 
 }
