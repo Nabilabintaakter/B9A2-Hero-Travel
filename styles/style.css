@@ -471,6 +471,7 @@ hr{
     .travel-inputs {
         flex-direction: column;
     }
+    
     .travel-inputs select,
     .travel-inputs button{
         width: 100%;
